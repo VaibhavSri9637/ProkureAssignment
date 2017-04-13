@@ -1,0 +1,425 @@
+section.mainbackground{
+	background-color: #f9f9fa;
+	padding-top: 1%;
+}
+li.maintabs{
+	display: inline;
+	font-style: Arial;
+	margin-left: 3%;
+	margin-right: 2%;
+	font-size: 16px;
+	color:  #737373;
+}
+.active{
+	border-bottom: 4px solid black;	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.imagerespcenter{
+	margin: 0 auto;
+}
+.active1{
+	background-color: blue;
+}
+div.whitesectionleft{
+	background-color: white;
+	margin-top: 3%;
+	border: 1px solid lightgrey;
+	margin-bottom: 3%;
+}
+div.whitesectionleftbot{
+	background-color: white;
+	margin-top: 3%;
+	border: 1px solid lightgrey;
+}
+p.whitelefthead{
+	font-size: 17px;
+	font-style: Arial;
+	padding-left: 3%;	
+}
+
+img.imagecenter{
+	padding-top: 5%;
+}
+.img-center{
+	margin: 0 1% 0 43%;
+	display: inline;
+}
+@media all and (max-width: 319px) {
+    .img-center{
+   	 	margin: 0 1% 0 25.5%;;
+    }
+}
+
+@media all and (max-width: 639px) and (min-width: 320px) {
+    .img-center{
+   		margin: 0 1% 0 32.5%;;
+    }
+}
+
+@media all and (max-width: 799px) and (min-width: 640px) {
+    .img-center{
+   		margin: 0 1% 0 40.5%;
+    }
+}
+
+@media all and (max-width: 1023px) and (min-width: 800px) {
+    .img-center{
+   		margin: 0 1% 0 41.7%;
+    }
+}
+@media all and (max-width: 1440px) and (min-width: 801px) {
+    .img-center{
+   	margin: 0 1% 0 43%;
+    }
+}
+.centerimages{
+	width: 20px;
+	margin-right: 1%;
+}
+img.otherimg-center{
+	width: 20px;
+	margin: 0 1% 0 0;
+	display: inline;
+}
+div.font{
+	font-style: Arial;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: black;
+}
+.morecontent span{
+    display: none;
+    }
+.morelink {
+    display: inline;
+    color: #bcaab1;
+}
+.morelink:hover{
+	color: #bcaab1;
+}
+div.font1{
+	color: #88888b;
+	font-size: 16px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
+.likeimg{
+	padding-left: 1%;
+	padding-right: 0.4%;
+	width: 40px;
+	cursor: hand;
+	cursor: pointer;
+}
+.font2{
+	color: #333333;
+	font-size: 17px;
+	font-style: Arial;
+
+}
+.likehead{
+	padding-left: 4%;
+}
+.likehead:hover{
+	color: #333333;
+}
+.font3{
+	color: #6f6666;
+	font-size: 13px;
+	font-style: Arial;
+	padding-top: 1%;
+	padding-left: 12%;
+}
+.font4{
+	color: #6f6666;
+	font-size: 13px;
+	font-style: Arial;
+	padding-left: 12%;
+}
+.likerightimageclass{
+	width: 35%;
+	float: none;
+
+}
+.dhilbar_img{
+	width: 30px;
+	margin-left: 12%;
+}
+.dhilbar_img_text{
+	color: #aaaaaa;
+	font-style: Arial;
+	display: inline;
+	padding-left: 1px;
+}
+.dhilbar_link{
+	color: #aaaaaa;
+}
+.dhilbar_link:hover{
+	color: #aaaaaa;
+}
+.foundersec{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.founderimages{
+	width: 25%;
+	border: 8px solid #f7f8f9;
+	border-radius: 10px;
+	float: left;
+}
+.dhilbarimage{
+	display: inline;
+}
+.foundertext{
+	color: #8c8c8c;
+	font-style: Arial;
+	display: inline;
+	padding-right: 3%;
+	left: 3%;
+	font-size: 13px;
+	position: relative;
+}
+.fundinghead{
+	color: #8c8c8c;
+}
+.fundingsec{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 3%;
+}
+.fundingimage{
+	width: 5%;
+	border: 1px solid #e6e6e6;
+	float: left;
+}
+.fundingtext{
+	color: #8c8c8c;
+	margin-top: 2%;
+	font-style: Arial;
+	display: inline;
+	padding-right: 3%;
+	left: 5%;
+	font-size: 13px;
+	position: relative;
+}
+.empimages{
+	width: 16%;
+	float: left;
+}
+.emptext{
+	color: #8c8c8c;
+	margin-top: 2%;
+	font-style: Arial;
+	display: inline;
+	padding-right: 3%;
+	left: 1%;
+	font-size: 13px;
+	position: absolute;
+}
+.employeesub{
+	margin-left: 16%;
+	font-size: 12px;
+}
+.viewallemps{
+	float: right;
+	margin-right: 5%;
+	color: #4d4dff;
+	font-size: 13px;
+}
+.viewallemps:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.disphide{
+	display: none;
+}
+.dispshow{
+	display: visible;
+}
+.stackshow{
+	color: black;
+	display: inline;
+	margin-right: 2%;
+	margin-left: -4.5%;
+}
+.stackrests{
+	color: #8c8c8c;
+	display: inline;
+	margin-right: 2%;
+}
+.stackrests:hover{
+	color: #4d4dff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.stackimages{
+	width: 34%;
+	border: 2px solid #f2f2f2;
+	float: left;
+	margin-bottom: 5%;
+	display: inline;
+}
+.stacktext{
+	color: #8c8c8c;
+	font-style: Arial;
+	display: inline;
+	font-size: 14px;
+	left: 5%;
+	position: relative;
+}
+.listackimage{
+	width: 34%;
+	display: inline;
+	float: left;
+	border: 2px solid red;
+}
+.box{
+	height: 60px; 
+	width: 190px;
+	list-style: none;
+	display: inline;
+	float: left;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	padding-right: 1%;
+}
+.box1{
+	height: 100%; 
+	width: 100%;
+	display: inline;
+	float: left;
+	padding: 1%;
+}
+.blur{
+	filter: blur(4px);
+	opacity: 0.4;
+}
+.showall42{
+	width: 90%;
+	margin: 0 5% 0 5%;
+	border: 2px solid #f2f2f2;
+	display: inline-block;
+	padding: 3% 0 3% 0;
+	text-align: center;
+	color: #4d4dff;
+}
+.showall42:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.lastsec{
+	text-align: center;
+	word-spacing: 2px;
+}
+.addtoprofile{
+	cursor: pointer;
+	color: #4d4dff;
+}
+.addtoprofile:hover{
+	text-decoration: underline;
+}
+.examples{
+	display: inline;
+}
+.button1{
+	background-color: #3f81c7;
+	font-size: 11px;
+	color: white;
+	padding: 6px;
+	width: 5%;
+	height: 4%;
+	border-radius: 5px;
+}
+.confirminfo{
+	color: #808080;
+	font-size: 12px;
+	text-align: center;
+}
+.jobs{
+	padding: 9%;
+}
+.jobs p{
+	color: #b3b3b3;
+	font-size: 13px;
+	padding-top: 2%;
+	line-height: 180%;
+}
+.jobinterest{
+	background-color: #3f81c7;
+	margin-left: 2%;
+	margin-right: 7%;
+	padding: 3% 0 3% 0;
+	text-align: center;
+	color: white;
+	border-radius: 4px;
+}
+.jobdetails{
+	background-color: #dde2e7;
+	margin-left: 2%;
+	margin-right: 7%;
+	margin-top: 4%;
+	padding: 3% 0 3% 0;
+	text-align: center;
+	color: black;
+	border-radius: 4px;
+}
+.alsoviewedimages{
+	float: left;
+	display: inline;
+	width: 28%;
+	border-radius: 3px;
+}
+.alsoviewedtext{
+	left: 4%;
+	position: relative;
+	display: inline;
+	color: #737373;
+	font-size: 13px;
+}
+.alsoviewed{
+	padding: 10%;
+}
+.hello:hover{
+	cursor: pointer;
+}
+.topas{
+	color: #777;
+	font-size: 14px;
+	padding: 0;
+}
+.topas:hover{
+	color: black;
+	background-color: none;
+}
+.displayornot{
+	display: visible;
+}
+@media all and (max-width: 319px) {
+    .displayornot{
+		display: none;
+	}
+}
+
+@media all and (max-width: 639px) and (min-width: 320px) {
+    .displayornot{
+		display: none;
+	}
+}
+
+@media all and (max-width: 799px) and (min-width: 640px) {
+    .displayornot{
+		display: none;
+	}
+}
+
+@media all and (max-width: 1023px) and (min-width: 800px) {
+    .displayornot{
+		display: visible;
+	}
+}
+@media all and (max-width: 1440px) and (min-width: 801px) {
+    .displayornot{
+		display: visible;
+	}
+}
